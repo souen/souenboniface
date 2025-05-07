@@ -1,0 +1,105 @@
+/* ===========
+    TOOLS
+   =========== */
+
+.clearer {
+    width: 0;
+    height: 0;
+    clear: both !important;
+    float: none !important;
+    list-style: none;
+}
+
+strong {
+    font-family: "arsenalbold";
+}
+
+a {
+    color: black;
+}
+
+/* ===========
+    CONTENT
+   =========== */
+
+html {
+}
+
+div.content {
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    margin-top: 30%;
+    font-family: "arsenalregular";
+}
+
+div.core {
+    margin-left: 30%;
+}
+
+h1 {
+    font-family: "arsenalregular";
+    font-size: 120%;
+    padding: 0 50px;
+}
+
+h1 strong {
+    font-family: "arsenalbold";
+}
+
+ul.skills {
+    margin-top: 1%;
+    font-size: 110%;
+    text-align: left;
+    margin-left: 5%;
+    line-height: 120%;
+}
+
+.bold-strike {
+    position: relative;
+}
+
+.bold-strike:after {
+    border-bottom: 2px solid white;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+ul.links {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 90%;
+}
+
+ul.links li {
+    display: inline;
+    padding: 0 0.5em;
+}
+
+p.footnote {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: black;
+}
+
+.no-mobile {
+    display: none;
+}
+
+
+@media screen and (min-width: 800px) {
+    .mobile {
+        display: none;
+    }
+
+    .no-mobile {
+        display: inherit;
+    }
+}
