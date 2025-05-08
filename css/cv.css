@@ -171,6 +171,11 @@ strong {
 	margin-bottom: 3px;
 }
 
+section.exergue p {
+	margin:0 auto 0;
+	text-align:center;
+}
+
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
 		display: none;
